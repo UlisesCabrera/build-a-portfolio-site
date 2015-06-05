@@ -1,0 +1,157 @@
+/*General Styles*/
+body {
+
+    font-family: 'Lato', sans-serif;	
+	
+}
+
+.container {
+	background-color: #F2EFF1;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    color: #8D8B8D; /* old IE */
+    background-color: #8D8B8D; /* Modern Browsers */
+}
+
+figcaption {
+	margin-top: 10px;
+}
+
+
+/*Typography*/
+
+
+h1 {
+	font-family: 'Cabin', sans-serif;
+    font-weight: 900;
+	color: #8D8B8D;
+}
+
+h3 {
+	color: #649FA4;
+	margin-top:10px;
+}
+
+h2 {
+	color: #221f1d;
+}
+
+#showcase p {
+	cursor: pointer;
+	color:#3B6874;
+}
+
+
+/*gallery widget*/
+.gallery-chevron {
+    position: absolute;
+    color: #fff;
+    font-size: 48px;
+    cursor: pointer;
+    top: 50%;
+    z-index: 6;
+}
+
+.right {
+    right: 20px;
+}
+
+.gallery-remove {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 20px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.gallery-img {
+    max-width: 100%;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;    
+    display: block;
+    margin: auto;
+    
+}
+
+.gallery-container {
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    z-index: 999;
+    overflow: scroll;
+}
+
+
+/*Footer*/
+footer {
+	background-color:#221f1d;
+}
+
+footer  h2{
+	color: #649fa4;
+	margin: 10px 0 20px 0;
+}
+
+ul {
+	display: -webkit-box;  
+	display: -ms-flexbox;  
+	display: -webkit-flex; 
+	display: flex;         
+	-webkit-justify-content: center;
+    justify-content: center;
+	padding-left: 0;
+}
+
+li {
+	display: inline-block;
+    list-style: none;
+	margin: 0 10px;	
+}
+
+li img {
+	max-width: 44px;
+}
+
+/*desktop and up styles*/
+@media only screen and (min-width: 992px) {
+
+	/*Footer*/	
+	footer {
+		padding: 20px 0 10px 0;;
+		
+	}
+
+	footer h2 {
+			text-align: right;
+		}    
+
+	ul {
+		justify-content: flex-start;
+	}    
+		
+	li img {
+		max-width: 64px;
+	}    
+
+
+}
+
+
