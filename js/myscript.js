@@ -28,8 +28,7 @@ $(function(){
     
     
     
-	$('#showcase').on('click','a', function(e){ // add event listener to the showcase section
-            e.preventDefault();
+	$('#showcase').on('click','p', function(e){ // add event listener to the showcase section
 			var $newDiv = $('<div>'); // create new div tag
 			var $img = $('<img>'); // create new img tag
 			var $leftSpan = $('<span>'); // create left span where the arrow goes
