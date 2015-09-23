@@ -133,10 +133,6 @@ li img {
 /*desktop and up styles*/
 @media only screen and (min-width: 992px) {
 
-    header .text-center {
-        text-align: right;
-    }
-
     /*Footer*/	
     footer {
         padding: 20px 0 10px 0;
